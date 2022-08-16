@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{8B24A0FB-C116-4DB7-AC6B-F00B6DF193FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesignPattern", "BuilderDesignPattern\BuilderDesignPattern.csproj", "{8B24A0FB-C116-4DB7-AC6B-F00B6DF193FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDesignPattern", "ProxyDesignPattern\ProxyDesignPattern.csproj", "{C5B9A668-F7D8-4983-AFF3-8B3F3C798365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyDesignPattern", "ProxyDesignPattern\ProxyDesignPattern.csproj", "{C5B9A668-F7D8-4983-AFF3-8B3F3C798365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorDesignPattern", "IteratorDesignPattern\IteratorDesignPattern.csproj", "{5EF4FC35-D5AA-42E9-9427-529F0D531F80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorDesignPattern", "IteratorDesignPattern\IteratorDesignPattern.csproj", "{5EF4FC35-D5AA-42E9-9427-529F0D531F80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDesignPattern", "StrategyDesignPattern\StrategyDesignPattern.csproj", "{5A0442C7-C395-44DA-9444-1C22464600D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDesignPattern", "StrategyDesignPattern\StrategyDesignPattern.csproj", "{5A0442C7-C395-44DA-9444-1C22464600D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern\AbstractFactoryDesignPattern.csproj", "{E0427B0E-37D3-4147-896E-9E55945F73EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern\AbstractFactoryDesignPattern.csproj", "{E0427B0E-37D3-4147-896E-9E55945F73EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPattern", "FactoryDesignPattern\FactoryDesignPattern.csproj", "{7BA5C26E-DFE7-4AEF-BB57-939915B74E27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E0427B0E-37D3-4147-896E-9E55945F73EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0427B0E-37D3-4147-896E-9E55945F73EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0427B0E-37D3-4147-896E-9E55945F73EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA5C26E-DFE7-4AEF-BB57-939915B74E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA5C26E-DFE7-4AEF-BB57-939915B74E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA5C26E-DFE7-4AEF-BB57-939915B74E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA5C26E-DFE7-4AEF-BB57-939915B74E27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
