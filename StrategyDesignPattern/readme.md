@@ -1,4 +1,5 @@
-﻿<H1>Strategy Design Pattern</H1>
+﻿![#FF0000](https://placehold.it/15/FF0000/000000?text=+)
+<H1>Strategy Design Pattern</H1>
 <span style="color:green;font-weight:700;font-size:20px;">
     Strategy Design Pattern
 </span>
