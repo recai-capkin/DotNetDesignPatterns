@@ -10,9 +10,9 @@ namespace StrategyDesignPattern
     public  class ExchangeUser
     {
         ISetUserFee _setUserFee = null;
-        public ExchangeUser(ISetUserFee _isuf)
+        public ExchangeUser(ISetUserFee setUserFee)
         {
-            _setUserFee = _isuf;
+            _setUserFee = setUserFee;
         }
         public string SetUserMakerFee(string user)
         {
