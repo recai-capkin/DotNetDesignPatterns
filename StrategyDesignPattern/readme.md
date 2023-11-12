@@ -1,5 +1,5 @@
 ﻿
-<H1>Strategy Design Pattern</H1>
+<H1 style="color:purple;">Strategy Design Pattern</H1>
 <span style="color:![#FF0000];font-weight:700;font-size:20px;">
     Strategy Design Pattern
 </span>
