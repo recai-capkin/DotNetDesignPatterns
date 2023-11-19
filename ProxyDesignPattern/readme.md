@@ -3,7 +3,7 @@ Proxy tasarım deseni, bir nesnenin başka bir nesneye olan erişimini kontrol e
 
 Proxy deseninin temel kullanım amaçları şunlardır:
 
--Erişim Kontrolü: Yetkisiz erişimleri engellemek veya erişimi sınırlamak için kullanılır.
+-Erişim Kontrolü: Yetkisiz erişimleri engellemek veya erişimi sınırlamak için kullanılır. \n
 -Lazy Initialization (Tembel Başlatma): Bir nesnenin yaratılmasının ve onun üzerindeki işlemlerin maliyetli olduğu durumlarda, bu nesneye ihtiyaç duyulana kadar bekletmek için kullanılır.
 -Logging ve Monitoring: Nesnelere yapılan çağrıların kaydedilmesi ve izlenmesi için kullanılır.
 -Remote Object (Uzak Nesne): Ağ üzerinden bir nesneye erişim sağlarken, ağ iletişim detaylarını gizlemek için kullanılır.
