@@ -12,8 +12,17 @@ namespace ProxyDesignPattern.Classes.Proxy
         Exchange _exchange;
         public string BuyCoin(decimal amount, string coinId)
         {
-            _exchange = new Exchange();
+            //Exchange nesnesinin yalnızca ihtiyaç olduğu durumda oluşturmak için Lazy Initialization prensini kullanılmıştır.
+            if (_exchange == null)
+            {
+                _exchange = new Exchange();
+            }
+            LogTransaction(amount, coinId);
             return _exchange.BuyCoin(amount, coinId);
+        }
+        private void LogTransaction(decimal amount, string coinId)
+        {
+            Console.WriteLine($"Log: {amount} $ lık {coinId} satın alındı.");
         }
     }
 }
