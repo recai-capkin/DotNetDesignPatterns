@@ -10,4 +10,4 @@ Facade Pattern'in Faydaları:
 
 Bu örnekte, **WalletManager**, **TradingEngine** ve **VerificationService** sınıfları kripto para borsasının çeşitli alt sistemlerini temsil eder. **CryptoExchangeFacade** sınıfı, kullanıcıların bu alt sistemlerle kolayca etkileşim kurabilmesi için bir cephe görevi görür. İstemci, yalnızca **MakeTrade** metodunu çağırarak tüm alım satım işlemlerini gerçekleştirebilir. Bu, kullanıcıdan alt sistemlerin karmaşıklığını gizler ve işlemi basitleştirir.
 
-#RRGGBB
+'RRGGBB'
