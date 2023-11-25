@@ -10,14 +10,14 @@ namespace DecoratorDesignPattern.Classes.Decorator
 {
     public class MineableCurrencyDecorator:CryptoCurrencyDecorator
     {
-        Random random = new Random();
+        
         public MineableCurrencyDecorator(CryptoCurrency cryptoCurrency) : base(cryptoCurrency)
         {
 
         }
         public decimal changeDifficulty()
         {
-            
+            Random random = new Random();
             baseDifficulty += this.baseDifficulty * random.Next(10);
             return baseDifficulty;
         }

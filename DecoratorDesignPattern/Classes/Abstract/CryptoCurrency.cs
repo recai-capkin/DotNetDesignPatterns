@@ -8,9 +8,9 @@ namespace DecoratorDesignPattern.Classes.Abstract
 {
     public abstract class CryptoCurrency
     {
-        public string name;
-        public decimal baseDifficulty = 100;
-        public decimal maxblockSizeBytes = 1300000;
+        protected string name;
+        protected decimal baseDifficulty = 100;
+        protected decimal maxblockSizeBytes = 1300000;
         public abstract void Send(decimal amount, string walletId);
 
     }
