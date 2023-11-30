@@ -1,0 +1,3 @@
+﻿<H1>Adapter Design Pattern</H1>
+
+Bu tasarım deseninde farklı kripto para birimlerini farklı formatlarda sağlamayı amaçladık. **BitcoinService** satoshi biriminden gösterim yaparken **EthereumService** usd cinsinden dönüş sağlar. **BitcoinAdapter** ve **EthereumAdapter** sınıflarına **ICryptoCurrencyAPI** interface ini implemente ettik. Adapter classların içerisinde servisleri constructor injection ile kullandık. Böylelikle her biri **GetPrice** metodunu çağırdığında veriler için uygun bir standart oluşmasını sağladık. 
