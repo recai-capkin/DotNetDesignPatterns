@@ -1,0 +1,5 @@
+﻿<H1>Flyweight Design Pattern</H1>
+Flyweight tasarım deseni, özellikle birçok benzer nesnenin kullanıldığı durumlarda hafıza kullanımını optimize etmek için kullanılır. Bu desen, nesneler arasında paylaşılabilecek (intrinsic) ve paylaşılamayacak (extrinsic) durumları ayırt ederek, tekrar eden verilerin nesne örneklerinde tekrar tekrar saklanmasını önler. Bunun yerine, bu veriler ortak nesnelerde saklanır ve gerektiğinde bu nesneler tarafından kullanılır.
+
+**ICryptoCurrency** interface i içerisine **DisplayPrice** metot imzası oluşturuldu. Bu interface **CryptoCurrency** sınıfına implemente edildi. Bu sınıf kripto para biriminin sembolünü (**_symbol**) içsel bir durum olarak saklar. Bu içsel durum, tüm flyweight nesneleri tarafından paylaşılan ve değişmeyen bir bilgidir. 
+**CryptoCurrencyFactory** fabrika sınıfı **CryptoCurrency** nesnelerini oluşturur ve yönetir. **CryptoCurrency** nesnesi hali hazırda var ise fabrika mevcut nesneyi döndürür. Böylelikle aynı sembollü birden fazla nesne yaratmanın önüne geçilir.
