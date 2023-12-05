@@ -29,7 +29,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeDesignPattern", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{EA79BBD9-2D97-497D-888E-069E0F4EA342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightDesignPattern", "FlyweightDesignPattern\FlyweightDesignPattern.csproj", "{BDE18976-C6E0-40D4-8588-FEC65F57F8C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightDesignPattern", "FlyweightDesignPattern\FlyweightDesignPattern.csproj", "{BDE18976-C6E0-40D4-8588-FEC65F57F8C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{908BF4AA-C4AE-4E7C-910F-EE8477A7A4D5}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
